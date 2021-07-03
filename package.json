@@ -5,7 +5,7 @@
   "license": "MIT",
   "name": "@veroui/react",
   "scripts": {
-    "publish-pkg": "bash publish-pkg.sh"
+    "update": "bash update.sh"
   },
   "version": "0.0.5"
 }
