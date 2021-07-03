@@ -4,5 +4,8 @@
   "description": "Tailwind CSS based fully accessible UI components for React.",
   "license": "MIT",
   "name": "@veroui/react",
-  "version": "0.0.4"
+  "scripts": {
+    "publish-pkg": "bash publish-pkg.sh"
+  },
+  "version": "0.0.5"
 }
