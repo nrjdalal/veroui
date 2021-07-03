@@ -1,5 +1,5 @@
 #!/bin/bash
 
-mkdir -p ./components/
-curl -fsSL https://raw.githubusercontent.com/nrjdalal/veroui/master/src/veroui.jsx >./components/
-echo "Successfully installed @veroui/react"
+mkdir -p ./components/veroui/
+cp -r ./node_modules/@veroui/react/src/ ./components/veroui/
+echo "Successfully added @veroui/react"
