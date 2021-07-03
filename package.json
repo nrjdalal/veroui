@@ -5,7 +5,8 @@
   "license": "MIT",
   "name": "@veroui/react",
   "scripts": {
+    "prepublishOnly": "yarn update",
     "update": "bash update.sh"
   },
-  "version": "0.0.10"
+  "version": "0.0.11"
 }
