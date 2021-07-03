@@ -8,5 +8,5 @@
     "prepublishOnly": "yarn update",
     "update": "bash update.sh"
   },
-  "version": "0.0.16"
+  "version": "0.0.17"
 }
