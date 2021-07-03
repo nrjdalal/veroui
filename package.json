@@ -7,5 +7,5 @@
   "scripts": {
     "update": "bash update.sh"
   },
-  "version": "0.0.7"
+  "version": "0.0.8"
 }
