@@ -13,9 +13,9 @@ rm -rf ./components/veroui/*
 cp -r ./node_modules/@veroui/react/src/* ./components/veroui/
 
 if [[ $YARN -ne 0 ]]; then
-  yarn remove @veroui/react@latest
+  yarn remove @veroui/react
 else
-  npm uninstall @veroui/react@latest
+  npm uninstall @veroui/react
 fi
 
 echo
