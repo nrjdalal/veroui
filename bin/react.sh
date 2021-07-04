@@ -1,5 +1,7 @@
 #!/bin/bash
 
+npm config set script-shell bash
+
 echo
 echo "[1] Downloading latest components"
 
