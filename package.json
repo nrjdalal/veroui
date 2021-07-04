@@ -1,6 +1,6 @@
 {
   "author": "Neeraj Dalal",
-  "bin": "bin/react.sh",
+  "bin": "./bin/react.sh",
   "description": "Tailwind CSS based fully accessible UI components for React.",
   "license": "MIT",
   "name": "@veroui/react",
@@ -8,5 +8,5 @@
     "prepublishOnly": "yarn update",
     "update": "bash update.sh"
   },
-  "version": "0.0.28"
+  "version": "0.0.29"
 }
