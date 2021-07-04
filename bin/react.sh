@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 echo
 echo "[1] Downloading latest components"
