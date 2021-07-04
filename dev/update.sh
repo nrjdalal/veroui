@@ -9,4 +9,5 @@ git push
 
 echo
 echo "To publish run -"
-echo "$(tput setaf 3)cd .. && npm publish$(tput sgr0)"
+echo "$(tput setaf 3)cd .. && npm publish && cd dev$(tput sgr0)"
+echo
