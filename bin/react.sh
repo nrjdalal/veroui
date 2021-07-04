@@ -12,5 +12,11 @@ mkdir -p ./components/veroui/
 rm -rf ./components/veroui/*
 cp -r ./node_modules/@veroui/react/src/* ./components/veroui/
 
+if [[ $YARN -ne 0 ]]; then
+  yarn remove @veroui/react@latest
+else
+  npm uninstall @veroui/react@latest
+fi
+
 echo
 echo "Successfully added @veroui/react"
