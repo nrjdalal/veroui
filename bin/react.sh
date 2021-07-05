@@ -15,7 +15,7 @@ echo "[2] Replacing existing components"
 
 mkdir -p ./components/veroui/
 rm -rf ./components/veroui/*
-cp -r ./node_modules/@veroui/react/src/* ./components/veroui/
+cp -r ./node_modules/@veroui/react/src/ ./components/veroui/
 
 echo "[3] Cleaning up files and folders"
 
